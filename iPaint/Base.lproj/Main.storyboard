@@ -163,7 +163,7 @@
                                     <action selector="pencilPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="p8G-yN-dGu"/>
                                 </connections>
                             </button>
-                            <imageView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="466-i1-KOG" customClass="Canvas">
+                            <imageView contentMode="scaleToFill" fixedFrame="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="466-i1-KOG" customClass="Canvas">
                                 <rect key="frame" x="0.0" y="56" width="320" height="321"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -216,6 +216,7 @@
         <image name="LightGreen.png" width="53" height="332"/>
         <image name="Red.png" width="53" height="332"/>
         <image name="Yellow.png" width="53" height="332"/>
+        <image name="bg.jpg" width="720" height="565"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
